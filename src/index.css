@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-obsidian: #0B1726;
+    --color-midnight: #13263A;
+    --color-sand: #D8C7AE;
+    --color-ivory: #F5F2EC;
+    --color-white: #FFFFFF;
+    --color-stone: #858A8F;
+    --color-border: #DDD8D0;
+    --color-champagne: #B39A78;
+  }
+
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--color-ivory);
+    color: var(--color-obsidian);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display, .font-serif-luxury {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar for refined luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F2EC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DDD8D0;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #858A8F;
+}
+
+/* Perspective carousel 3D transforms */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.perspective-1500 {
+  perspective: 1500px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}

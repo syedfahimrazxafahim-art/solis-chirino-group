@@ -1,0 +1,7 @@
+{
+  "name": "Solis Chirino Group | Douglas Elliman Real Estate",
+  "description": "Luxury Real Estate Group at Douglas Elliman serving Miami, Florida. Curated architectural properties, bespoke buyer advisory, and premier marketing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
